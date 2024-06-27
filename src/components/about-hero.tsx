@@ -27,7 +27,7 @@ export default function AboutHero() {
         <AnimatePresence>
           <FadeUp key="title-greeting" duration={0.6}>
             <h1 className="text-6xl font-bold text-accent sm:text-7xl md:text-6xl lg:text-5xl xl:text-7xl">
-              Hi, I&apos;m Amit Chauhan
+              Hi, I&apos;m AaMna AnSari
             </h1>
           </FadeUp>
           <FadeUp key="description-1" duration={0.6} delay={0.2}>
@@ -52,14 +52,14 @@ export default function AboutHero() {
             <div className="relative flex w-12 gap-4 overflow-hidden rounded-md">
               <Image
                 className="-z-10 h-full w-full bg-cover bg-no-repeat"
-                alt="Indian flag"
-                src="https://flagcdn.com/in.svg"
+                alt="Pakistan flag"
+                src="https://flagcdn.com/pk.svg"
                 width={15}
                 height={15}
               />
             </div>
             <span className="text-lg font-medium text-foreground">
-              Mumbai, India
+              Faisalabad, Pakistan
             </span>
           </FadeRight>
         </AnimatePresence>

@@ -2,35 +2,36 @@ import { type ExperienceShowcaseListItemProps } from "@/components/experience/ex
 
 export const EXPERIENCE: ExperienceShowcaseListItemProps[] = [
   {
-    title: "Reactjs Frontend Developer",
+    title: "Trainer | Moderator ",
     organisation: {
-      name: "Skima",
-      href: "https://skima.ai/",
+      name: "iCodeGuru",
+      href: "https://www.icode.guru/",
     },
-    date: "Oct 2023 - Present",
-    location: "Mumbai",
-    description: "Reactjs and Nextjs app development",
+    date: "May 2023 - Present",
+    location: "Silicon Valley, California, United States",
+    description:
+      "Teaching Python programming language and DSA through Leetcode",
   },
   {
-    title: "Engineering Trainee",
+    title: "Quality Assurance Tester",
     organisation: {
-      name: "Hexaware",
-      href: "https://hexaware.com/",
+      name: "TechloSet Solutions",
+      href: "https://www.techloset.com/",
     },
-    date: "July 2023 - Sep 2023",
-    location: "Remote",
+    date: "Aug 2023 - Apr 2024",
+    location: "Faisalabad, Remote",
     description:
-      "Learned to work we monorepo and got to learn application architecture, scalling and build tooling to improve CI/CD of micro services.",
+      "I specialize in meticulously testing software applications, websites, or games to ensure they meet quality standards by identifying and documenting bugs, and collaborating with developers to enhance user experience and product reliability.",
   },
   {
-    title: "Frontend Developer Intern",
+    title: "BDM Intern",
     organisation: {
-      name: "Master Infotech",
-      href: "https://masterinfotech.com/",
+      name: "TechloSet Solutions",
+      href: "https://www.techloset.com/",
     },
-    date: "Winter - 2022",
-    location: "Remote",
+    date: "Oct 2023 - Mar 2024",
+    location: "Faisalabad, Remote",
     description:
-      "Worked on a team responsible for developing new features and updating old codebases to latest technologies. Learned alot about web development and CI/CD development cycle.",
+      "I specialize in identifying new business opportunities, forging strategic partnerships, and driving revenue growth through effective business strategies. I actively engage on platforms like Upwork, Fiverr, and LinkedIn.",
   },
 ];

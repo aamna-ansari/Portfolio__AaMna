@@ -5,85 +5,37 @@ import { siteMetadata } from "@/data/siteMetaData.mjs";
 export const PROJECT_SHOWCASE: ProjectShowcaseListItem[] = [
   {
     index: 0,
-    title: "Json Tree",
+    title: "My portfolio",
     href: "/projects",
     tags: ["Nextjs", "Tailwindcss", "Monaco Editor", "Vercel"],
     image: {
-      LIGHT: "/images/projects/jsontreeLight.webp",
-      DARK: "/images/projects/jsontreeDark.webp",
+      LIGHT: "/images/projects/portfolioLight.webp",
+      DARK: "/images/projects/portfolioDark.webp",
     },
   },
   {
     index: 1,
-    title: "Many Games",
+    title: "Many Challenges",
     href: "/projects",
-    tags: [
-      "Reactjs",
-      "Tailwindcss",
-      "Scss",
-      "Vite",
-      "React-router-dom",
-      "Redux",
-      "Vercel",
-    ],
+    tags: ["HTML ", "Tailwindcss", "Scss", "ReactJS", "Vercel"],
     image: {
-      LIGHT: "/images/projects/manyGamesLight.webp",
-      DARK: "/images/projects/manyGamesDark.webp",
+      LIGHT: "/images/projects/Challanges2.webp",
+      DARK: "/images/projects/Challange1.webp",
     },
   },
   {
     index: 2,
-    title: "Kanban",
+    title: "Toggle Switcher",
     href: "/projects",
-    tags: ["Reactjs", "Vite", "Tailwindcss", "Vercel", "Zustand", "React DND"],
+    tags: ["HTML", "CSS", "Tailwindcss", "Netlify", "React DND"],
     image: {
-      LIGHT: "/images/projects/kanbanLight.webp",
-      DARK: "/images/projects/kanbanDark.webp",
+      LIGHT: "/images/projects/AM.webp",
+      DARK: "/images/projects/PM.webp",
     },
   },
 ];
 
 export const PROJECTS_CARD: ProjectCardProps[] = [
-  {
-    name: "Json tree",
-    favicon: "/images/projects/logos/jsontree.ico",
-    imageUrl: [
-      "/images/projects/jsontreeLight.webp",
-      "/images/projects/jsontreeDark.webp",
-    ],
-    description:
-      "Visualize JSON data format in form of a tree or graph. Application is made using Nextjs, Tailwindcss and Monaco Editor. Design image can be downloaded from this app.",
-    sourceCodeHref: "https://github.com/BUMBAIYA/jsontree",
-    liveWebsiteHref: "https://jsontree.vercel.app",
-  },
-  {
-    name: "Kanban app",
-    favicon: "/images/projects/logos/kanban.ico",
-    imageUrl: [
-      "/images/projects/kanbanLight.webp",
-      "/images/projects/kanbanDark.webp",
-      "/images/projects/kanbanCardLight.webp",
-    ],
-    description:
-      "Keep track of projects and tasks in different categories. Drag and drop card from tables. Assign user and priority to task and many more features. This app is made using Reactjs, Typescript, Tailwindcss and React-beautiful-dnd library.",
-    sourceCodeHref: "https://github.com/BUMBAIYA/kanban",
-    liveWebsiteHref: "https://kannban-board.vercel.app",
-  },
-  {
-    name: "Many Games",
-    favicon: "/images/projects/logos/manygames.ico",
-    imageUrl: [
-      "/images/projects/manyGamesDark.webp",
-      "/images/projects/manyGamesLight.webp",
-      "/images/projects/manyGames2048.webp",
-      "/images/projects/manyGamesPuzzle.webp",
-      "/images/projects/manyGamesWordle.webp",
-    ],
-    description:
-      "Many short and fun games using Reactjs, Typescript and Tailwindcss with collaboration with other developers",
-    sourceCodeHref: "https://github.com/BUMBAIYA/ManyGames",
-    liveWebsiteHref: "https://manygames.vercel.app",
-  },
   {
     name: "My portfolio",
     favicon: "/favicon.ico",
@@ -93,33 +45,37 @@ export const PROJECTS_CARD: ProjectCardProps[] = [
     ],
     description:
       "My personal portfolio website made using Nextjs, tailwindcss and framer motion.",
-    sourceCodeHref: "https://github.com/BUMBAIYA/amitchauhan-v2",
+    sourceCodeHref: "https://github.com/aamna-ansari/Portfolio_aaMna",
     liveWebsiteHref: siteMetadata.siteUrl,
   },
   {
-    name: "Covid Tracker",
-    favicon: "/images/projects/logos/covidtracker.ico",
-    imageUrl: [
-      "/images/projects/covidTracker.webp",
-      "/images/projects/covidTrackerMap.webp",
-      "/images/projects/covidTrackerTable.webp",
-    ],
+    name: "Calculator",
+    favicon: "/images/projects/logos/calculator.ico",
+    imageUrl: ["/images/projects/CalculatorLight.webp"],
     description:
-      "Get latest covid related stats in a table where user can filter using country and cases. It also has a map which show every countries data for quick view. It uses an open source api (disease.sh). Made using Reactjs, Javascript and MUI",
-    sourceCodeHref: "https://github.com/BUMBAIYA/CovidTracker",
-    liveWebsiteHref: "https://bumbaiya.github.io/CovidTracker",
+      "Create a JavaScript calculator using the JavaScript, HTML, and CSS programming languages. It should perform addition, subtraction, division, and modulus operations.",
+    sourceCodeHref: "https://github.com/aamna-ansari/Project-03",
+    liveWebsiteHref: "https://project-03-jet.vercel.app/",
   },
   {
-    name: "Stock predictor",
-    favicon: "/images/projects/logos/stockpredictor.ico",
+    name: "Toggle Switcher",
+    favicon: "/images/projects/logos/Toggle.ico",
+    imageUrl: ["/images/projects/AM.webp", "/images/projects/PM.webp"],
+    description:
+      "Discover a sleek toggle button interface for seamless 'on' and 'off' state transitions. Perfect for intuitive web interactions, integrating HTML, CSS, and JavaScript effortlessly enhances user control.",
+    sourceCodeHref: "https://github.com/aamna-ansari/ProjectNo03",
+    liveWebsiteHref: "https://project-no03.vercel.app/",
+  },
+  {
+    name: "Many Challenges",
+    favicon: "/images/projects/logos/manygames.ico",
     imageUrl: [
-      "/images/projects/stockPredictor.webp",
-      "/images/projects/stockPredictorCandleChart.webp",
-      "/images/projects/stockPredictorCompareChart.webp",
-      "/images/projects/stockPredictorLineChart.webp",
+      "/images/projects/Challange1.webp",
+      "/images/projects/Challanges2.webp",
     ],
     description:
-      "Get prediction of opening and closing price of stocks price. Frontend is made using Reactjs and backend is made using Flask and Machine learning model are trained using Tensorflow",
-    sourceCodeHref: "https://github.com/Rohrschachh/Stock-Market-Predictor",
+      "Many short and fun games/ Challanges using HTML, CSS, Reactjs, Typescript and Tailwindcss with collaboration with other developers",
+    sourceCodeHref: "https://github.com/aamna-ansari/ChallengeYourCode",
+    liveWebsiteHref: "https://frontendchallenge01.netlify.app/",
   },
 ];

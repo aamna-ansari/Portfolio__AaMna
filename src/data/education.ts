@@ -2,36 +2,46 @@ import { type ExperienceShowcaseListItemProps } from "@/components/experience/ex
 
 export const EDUCATION: ExperienceShowcaseListItemProps[] = [
   {
-    title: "Bachelor Of Engineering in Electronics and Telecommunication",
+    title: "Bachelor Of Science In Computer Science",
     organisation: {
-      name: "Rizvi College Of Engineering",
-      href: "https://eng.rizvi.edu.in/",
+      name: "GCUF",
+      href: "https://gcuf.edu.pk/",
     },
     date: "2019-2023",
-    location: "Bandra, Mumbai",
+    location: "Faisalabad",
     description:
       "Relevant courses included Data Structures and Algorithms, Web Design, Cloud Computing, Artificial Neural Network and Database Management.",
   },
   {
+    title: "MERN Stack",
+    organisation: {
+      name: "Saylani Mass IT Training",
+      href: "https://saylaniwelfareusa.com/en/services/education/technical-education/saylani-mass-it-training",
+    },
+    date: "2022-2023",
+    location: "Lal Mill Rd, Factory Area, Faisalabad",
+    description:
+      "Completed the course, New technologies such as HTML, CSS, Bootstrap, JavaScript, Firebase, Firestore, ReactJS, React Native, REST APIs, ExpressJS, NodeJS, MongoDB, Git, and GitHub.",
+  },
+  {
     title: "Higher Secondary School",
     organisation: {
-      name: "Mithibai College",
-      href: "https://www.mithibai.ac.in/",
+      name: "Ideal Girls Higher Secondary School",
+      href: "",
     },
     date: "2016-2018",
-    location: "Vile Parle, Mumbai",
+    location: "275 R.B, Faisalabad",
     description:
       "Completed the course in Electronics Bifocal Science with 68%. Started freelancing making 3D assets for games. Got interested in game development and learned unity and c#",
   },
   {
     title: "Secondary School Education",
     organisation: {
-      name: "Holy Family High School",
-      href: "https://holyfamilyandheri.org/",
+      name: "Deccan Kulia Aunas Girls High School",
+      href: "",
     },
-    date: "2017-2018",
-    location: "Andheri, Mumbai",
-    description:
-      "Learned good values,dedication and disciplne. Played district football for 5 years.",
+    date: "2014-2016",
+    location: "Faisalabad",
+    description: "Learned good values,dedication and disciplne.",
   },
 ];

@@ -1,7 +1,5 @@
 import { ReactNode } from "react";
-
 import { Montserrat } from "next/font/google";
-
 import Navbar from "@/layout/navbar";
 import Footer from "@/layout/footer";
 import { routes } from "@/data/navigationRoutes";

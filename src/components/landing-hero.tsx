@@ -1,9 +1,6 @@
 import { useEffect, useRef, useState } from "react";
-
 import { AnimatePresence, motion } from "framer-motion";
-
 import FadeUp from "@/animation/fade-up";
-import DownloadCv from "./DownloadCv";
 
 export default function LandingHero() {
   const [scrollY, setScrollY] = useState(0);
@@ -26,6 +23,15 @@ export default function LandingHero() {
     return () => document.removeEventListener("scroll", handleScroll);
   }, []);
 
+  const handleDownload = () => {
+    const link = document.createElement('a');
+    link.href = '/cv.pdf'; 
+    link.download = 'cv.pdf';
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  };
+
   return (
     <motion.section
       animate={{
@@ -33,7 +39,7 @@ export default function LandingHero() {
       }}
       transition={{ type: "spring", stiffness: 100 }}
       ref={ref}
-      className="pointer-events-none flex h-[calc(100vh-112px)] items-center px-6 sm:px-14 md:px-20"
+      className="flex h-[calc(100vh-112px)] items-center px-6 sm:px-14 md:px-20"
     >
       <div className="-mt-[112px] w-full">
         <div className="mx-auto max-w-7xl">
@@ -53,9 +59,14 @@ export default function LandingHero() {
                 <span className="text-accent"> AaMna AnSari</span> , I turn
                 vision into reality with code and design.
               </div>
+              <button
+                onClick={handleDownload}
+                className="mt-4 select-none items-center gap-1 rounded-full p-8 font-semibold shadow-md ring-1 ring-zinc-200 backdrop-blur-md  "
+              >
+                Download PDF
+              </button>
             </FadeUp>
           </AnimatePresence>
-          <DownloadCv />
         </div>
       </div>
     </motion.section>

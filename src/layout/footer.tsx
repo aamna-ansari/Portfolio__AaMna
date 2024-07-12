@@ -1,6 +1,5 @@
 import ContactButton from "@/components/contact-form/contact-button";
-import { GithubIcon, LinkedinIcon, TwitterIcon } from "@/components/icons";
-import LeetcodeIcon from "@/public/icons/LeetcodeIcon.svg";
+import { GithubIcon, LinkedinIcon, TwitterIcon, LeetcodeIcon } from "@/components/icons";
 import { siteMetadata } from "@/data/siteMetaData.mjs";
 
 export default function Footer() {
@@ -28,12 +27,12 @@ export default function Footer() {
         <span className="text-foreground">©2024 AaMna AnSari ❤</span>
         <div className="flex gap-8">
           <a
-            href="https://leetcode.com/u/aamna_ansari/"
+            href={siteMetadata.Leetcode}
             target="_blank"
             className="h-6 w-6"
             aria-label="link to Leetcode"
           >
-            <LeetcodeIcon className="h-6 w-6 text-accent transition-colors duration-150 hover:text-accent-foreground" />
+            <LeetcodeIcon className="text-accent transition-colors duration-150 hover:text-accent-foreground" />
           </a>
           <a
             href={siteMetadata.github}

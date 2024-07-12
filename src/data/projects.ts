@@ -7,7 +7,7 @@ export const PROJECT_SHOWCASE: ProjectShowcaseListItem[] = [
     index: 0,
     title: "My portfolio",
     href: "/projects",
-    tags: ["Nextjs", "Tailwindcss", "Monaco Editor", "Vercel"],
+    tags: ["Nextjs", "Tailwindcss", "Monaco Editor", "Netlify"],
     image: {
       LIGHT: "/images/projects/portfolioLight.webp",
       DARK: "/images/projects/portfolioDark.webp",
@@ -17,7 +17,15 @@ export const PROJECT_SHOWCASE: ProjectShowcaseListItem[] = [
     index: 1,
     title: "Many Challenges",
     href: "/projects",
-    tags: ["HTML ", "Tailwindcss", "Scss", "ReactJS", "Vercel"],
+    tags: [
+      "HTML ",
+      "CSS",
+      "Tailwindcss",
+      "Scss",
+      "ReactJS",
+      "Vercel",
+      "Netlify",
+    ],
     image: {
       LIGHT: "/images/projects/Challanges2.webp",
       DARK: "/images/projects/Challange1.webp",

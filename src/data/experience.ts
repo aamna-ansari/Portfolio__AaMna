@@ -2,7 +2,7 @@ import { type ExperienceShowcaseListItemProps } from "@/components/experience/ex
 
 export const EXPERIENCE: ExperienceShowcaseListItemProps[] = [
   {
-    title: "Trainer | Moderator ",
+    title: "Trainer | Moderator",
     organisation: {
       name: "iCodeGuru",
       href: "https://www.icode.guru/",

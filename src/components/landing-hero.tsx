@@ -3,6 +3,7 @@ import { useEffect, useRef, useState } from "react";
 import { AnimatePresence, motion } from "framer-motion";
 
 import FadeUp from "@/animation/fade-up";
+import DownloadCv from "./DownloadCv";
 
 export default function LandingHero() {
   const [scrollY, setScrollY] = useState(0);
@@ -54,6 +55,7 @@ export default function LandingHero() {
               </div>
             </FadeUp>
           </AnimatePresence>
+          <DownloadCv />
         </div>
       </div>
     </motion.section>

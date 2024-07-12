@@ -1,5 +1,6 @@
 import ContactButton from "@/components/contact-form/contact-button";
 import { GithubIcon, LinkedinIcon, TwitterIcon } from "@/components/icons";
+import LeetcodeIcon from "@/public/icons/LeetcodeIcon.svg";
 import { siteMetadata } from "@/data/siteMetaData.mjs";
 
 export default function Footer() {
@@ -14,10 +15,9 @@ export default function Footer() {
         <a
           href={`mailto:${siteMetadata.email}`}
           target="_blank"
-          className="mb-6 cursor-pointer text-center text-2xl font-bold underline sm:text-4xl lg:text-7xl"
+          className="mb-6 cursor-pointer text-center text-2xl  underline sm:text-4xl lg:text-5xl"
         >
           <span>aamnansari29@</span>
-          <br />
           <span>gmail.com</span>
         </a>
         <div className="flex justify-center">
@@ -27,6 +27,14 @@ export default function Footer() {
       <div className="flex w-full flex-col items-center justify-between gap-8 text-center  md:flex-row md:justify-between lg:mx-auto lg:max-w-7xl">
         <span className="text-foreground">©2024 AaMna AnSari ❤</span>
         <div className="flex gap-8">
+          <a
+            href="https://leetcode.com/u/aamna_ansari/"
+            target="_blank"
+            className="h-6 w-6"
+            aria-label="link to Leetcode"
+          >
+            <LeetcodeIcon className="h-6 w-6 text-accent transition-colors duration-150 hover:text-accent-foreground" />
+          </a>
           <a
             href={siteMetadata.github}
             target="_blank"

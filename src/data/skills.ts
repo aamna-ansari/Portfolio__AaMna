@@ -12,7 +12,7 @@ import PythonSvg from "@/public/icons/python.svg";
 // Libraries
 import ReactjsSvg from "@/public/icons/reactjs.svg";
 import TailwindcssSvg from "@/public/icons/tailwindcss.svg";
-
+import BootstrapSvg from "@/public/icons/BootstrapSvg.svg";
 // Backend
 import NodejsSvg from "@/public/icons/nodejs.svg";
 
@@ -21,7 +21,8 @@ import MongoDBSvg from "@/public/icons/mongodb.svg";
 
 // Tools and Tech
 import GitSvg from "@/public/icons/git.svg";
-import VsCodeSvg from "@/public/icons/vscode.svg";
+// import VsCodeSvg from "@/public/icons/vscode.svg";
+import vSCodeSvg from "@/public/icons/vscodesvg.svg";
 import PostmanSvg from "@/public/icons/postman.svg";
 
 export const SKILLS_DATA: SkillsShowcaseProps["skills"] = [
@@ -65,7 +66,7 @@ export const SKILLS_DATA: SkillsShowcaseProps["skills"] = [
 
       {
         name: "Bootstrap",
-        icon: TailwindcssSvg,
+        icon: BootstrapSvg,
       },
       {
         name: "Tailwindcss",
@@ -105,7 +106,7 @@ export const SKILLS_DATA: SkillsShowcaseProps["skills"] = [
       },
       {
         name: "VsCode",
-        icon: VsCodeSvg,
+        icon: vSCodeSvg,
       },
     ],
   },

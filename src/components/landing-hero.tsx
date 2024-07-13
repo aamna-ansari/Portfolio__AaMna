@@ -61,9 +61,10 @@ export default function LandingHero() {
               </div>
               <button
                 onClick={handleDownload}
-                className="mt-4 select-none items-center gap-1 rounded-full p-8 font-semibold shadow-md ring-1 ring-zinc-200 backdrop-blur-md  "
+                className="mt-8 select-none items-center gap-1 rounded-full p-4 bg-zinc text-accent font-semibold shadow-md ring-2 ring-accent-100 ring-opacity-50 backdrop-blur-md dark:ring-accent/50 "
               >
-                Download PDF
+                
+                Download CV 
               </button>
             </FadeUp>
           </AnimatePresence>

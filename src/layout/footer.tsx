@@ -1,5 +1,10 @@
 import ContactButton from "@/components/contact-form/contact-button";
-import { GithubIcon, LinkedinIcon, TwitterIcon, LeetcodeIcon } from "@/components/icons";
+import { 
+  GithubIcon,
+  LinkedinIcon,
+  TwitterIcon,
+  LeetcodeIcon
+ } from "@/components/icons";
 import { siteMetadata } from "@/data/siteMetaData.mjs";
 
 export default function Footer() {

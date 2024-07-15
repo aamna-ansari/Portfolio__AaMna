@@ -1,5 +1,5 @@
 import { createTransport } from "nodemailer";
-import dotenv from 'dotenv';
+import dotenv from "dotenv";
 
 dotenv.config();
 
@@ -11,8 +11,6 @@ export const sendMail = async function (
 ): Promise<{ status: number; message: string }> {
   const user = process.env.NODEMAILER_USER;
   const pass = process.env.NODEMAILER_PASS;
-
-
   if (!user || !pass) {
     return new Promise((resolve) =>
       resolve({ status: 500, message: "Internal server error" }),
@@ -29,7 +27,7 @@ export const sendMail = async function (
 
   const mailOptions = {
     from: user,
-    to: 'aamnansari29@gmail.com',
+    to: "aamnansari29@gmail.com",
     subject: "Portfolio: [" + subject + " ]",
     text: `${name}: <${email}>\n${message}`,
   };

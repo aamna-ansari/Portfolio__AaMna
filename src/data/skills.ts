@@ -21,9 +21,11 @@ import MongoDBSvg from "@/public/icons/mongodb.svg";
 
 // Tools and Tech
 import GitSvg from "@/public/icons/git.svg";
+import GithubSvg from "@/public/icons/githubSvg.svg";
 // import VsCodeSvg from "@/public/icons/vscode.svg";
 import vSCodeSvg from "@/public/icons/vscodesvg.svg";
 import PostmanSvg from "@/public/icons/postman.svg";
+
 
 export const SKILLS_DATA: SkillsShowcaseProps["skills"] = [
   {
@@ -37,10 +39,7 @@ export const SKILLS_DATA: SkillsShowcaseProps["skills"] = [
         name: "CSS",
         icon: CsssSvg,
       },
-      {
-        name: "SASS",
-        icon: SassSvg,
-      },
+    
       {
         name: "Javascript",
         icon: JavascriptSvg,
@@ -55,6 +54,21 @@ export const SKILLS_DATA: SkillsShowcaseProps["skills"] = [
   {
     sectionName: "Libraries and Frameworks",
     skills: [
+      
+      {
+        name: "SASS",
+        icon: SassSvg,
+      }, 
+      
+      {
+        name: "Bootstrap",
+        icon: BootstrapSvg,
+      }, 
+    
+      {
+        name: "Tailwindcss",
+        icon: TailwindcssSvg,
+      },
       {
         name: "Reactjs",
         icon: ReactjsSvg,
@@ -64,14 +78,6 @@ export const SKILLS_DATA: SkillsShowcaseProps["skills"] = [
         icon: SiNextdotjs,
       },
 
-      {
-        name: "Bootstrap",
-        icon: BootstrapSvg,
-      },
-      {
-        name: "Tailwindcss",
-        icon: TailwindcssSvg,
-      },
     ],
   },
   {
@@ -99,7 +105,10 @@ export const SKILLS_DATA: SkillsShowcaseProps["skills"] = [
         name: "Git",
         icon: GitSvg,
       },
-
+    {
+        name: "Github",
+        icon: GithubSvg,
+      },
       {
         name: "Postman",
         icon: PostmanSvg,
@@ -108,6 +117,7 @@ export const SKILLS_DATA: SkillsShowcaseProps["skills"] = [
         name: "VsCode",
         icon: vSCodeSvg,
       },
+      
     ],
   },
 ];

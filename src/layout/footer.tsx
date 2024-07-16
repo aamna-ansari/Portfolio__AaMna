@@ -19,7 +19,7 @@ export default function Footer() {
         <a
           href={`mailto:${siteMetadata.email}`}
           target="_blank"
-          className="mb-6 cursor-pointer text-center text-2xl  underline sm:text-4xl lg:text-5xl"
+          className="mb-6 cursor-pointer text-center text-xl  underline sm:text-4xl lg:text-5xl"
         >
           <span>aamnansari29@</span>
           <span>gmail.com</span>
@@ -29,7 +29,7 @@ export default function Footer() {
         </div>
       </div>
       <div className="flex w-full flex-col items-center justify-between gap-8 text-center  md:flex-row md:justify-between lg:mx-auto lg:max-w-7xl">
-        <span className="text-foreground">©2023 AaMna AnSari ❤</span>
+        <span className="text-foreground">©2023 AaMna AnSari</span>
         <div className="flex gap-8">
           <a
             href={siteMetadata.Leetcode}

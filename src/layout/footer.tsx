@@ -21,7 +21,7 @@ export default function Footer() {
           target="_blank"
           className="mb-6 cursor-pointer text-center text-xl  underline sm:text-4xl lg:text-5xl"
         >
-          <span>aamnansari29@</span>
+          <span>theaamnansari@</span>
           <span>gmail.com</span>
         </a>
         <div className="flex justify-center">

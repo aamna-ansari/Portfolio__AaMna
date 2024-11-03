@@ -77,10 +77,10 @@ export const PROJECTS_CARD: ProjectCardProps[] = [
     name: "Many Challenges",
     favicon: "/images/projects/logos/manygames.ico",
     imageUrl: [
-      "/images/projects/calMbl1.PNG",
       "/images/projects/Challanges2.webp",
       "/images/projects/periodicTable.PNG",
       "/images/projects/Challange1.webp",
+      "/images/projects/frontmentor.webp",
       
     ],
     description:

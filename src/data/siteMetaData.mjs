@@ -15,7 +15,7 @@ export const siteMetadata = {
   email: "theaamnansari@gmail.com",
   github: "https://github.com/aamna-ansari/",
   twitter: "https://twitter.com/",
-  Leetcode: "https://leetcode.com/u/aamna_ansari/",
+  Leetcode: "https://leetcode.com/u/aamna-ansari/",
   linkedin: "https://www.linkedin.com/in/aamnansari/",
   locale: "en-US",
   googleSiteVerification: "_YJlO90eSoye2AQOhbkRAzNbejzCGiTgAD4RNR3NtHc",

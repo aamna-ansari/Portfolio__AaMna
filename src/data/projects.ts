@@ -86,6 +86,6 @@ export const PROJECTS_CARD: ProjectCardProps[] = [
     description:
       "Many short and fun games/ Challanges using HTML, CSS, Reactjs, Typescript and Tailwindcss with collaboration with other developers",
     sourceCodeHref: "https://github.com/aamna-ansari/ChallengeYourCode",
-    liveWebsiteHref: "https://frontendchallenge01.netlify.app/",
+    liveWebsiteHref: "https://03-periodictable.netlify.app/",
   },
 ];

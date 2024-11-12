@@ -8,6 +8,7 @@ import {
 import { siteMetadata } from "@/data/siteMetaData.mjs";
 
 export default function Footer() {
+  const year = new Date().getFullYear();
   return (
     <footer className="flex w-full flex-col items-center gap-20 bg-transparent px-6 py-8 sm:px-14 md:px-20">
       <div className="mx-auto flex w-full max-w-7xl flex-col gap-8 rounded-2xl bg-accent p-8 text-background sm:p-12 md:gap-12 lg:p-20">
@@ -29,7 +30,7 @@ export default function Footer() {
         </div>
       </div>
       <div className="flex w-full flex-col items-center justify-between gap-8 text-center  md:flex-row md:justify-between lg:mx-auto lg:max-w-7xl">
-        <span className="text-foreground">©2023 AaMna AnSari</span>
+        <span className="text-foreground"> ©{year} AaMna AnSari</span>
         <div className="flex gap-8">
           <a
             href={siteMetadata.Leetcode}

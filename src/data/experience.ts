@@ -5,7 +5,7 @@ export const EXPERIENCE: ExperienceShowcaseListItemProps[] = [
     title: "Trainer | Moderator",
     organisation: {
       name: "iCodeGuru",
-      href: "https://www.icode.guru/",
+      href: "https://www.icode.guru",
     },
     date: "May 2023 - Present",
     location: "Silicon Valley, California, United States",

@@ -14,7 +14,7 @@ export const siteMetadata = {
   socialBanner: "/static/homepage.png",
   email: "theaamnansari@gmail.com",
   github: "https://github.com/aamna-ansari/",
-  twitter: "https://twitter.com/",
+  twitter: "https://x.com/aamn_ansari",
   Leetcode: "https://leetcode.com/u/aamna-ansari/",
   linkedin: "https://www.linkedin.com/in/aamnansari/",
   locale: "en-US",

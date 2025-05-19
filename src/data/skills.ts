@@ -25,6 +25,7 @@ import GithubSvg from "@/public/icons/githubSvg.svg";
 // import VsCodeSvg from "@/public/icons/vscode.svg";
 import vSCodeSvg from "@/public/icons/vscodesvg.svg";
 import PostmanSvg from "@/public/icons/postman.svg";
+import CursorAiSvg from "@/public/icons/cursor-ai.svg";
 
 
 export const SKILLS_DATA: SkillsShowcaseProps["skills"] = [
@@ -121,6 +122,10 @@ export const SKILLS_DATA: SkillsShowcaseProps["skills"] = [
         name: "VsCode",
         icon: vSCodeSvg,
       },
+      {
+        name: "Cursor Ai",
+        icon: CursorAiSvg,
+      }
       
     ],
   },

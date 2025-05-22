@@ -9,6 +9,7 @@ export const sendMail = async function (
   subject: string,
   message: string,
 ): Promise<{ status: number; message: string }> {
+  
   const user = process.env.NODEMAILER_USER;
   const pass = process.env.NODEMAILER_PASS;
   if (!user || !pass) {

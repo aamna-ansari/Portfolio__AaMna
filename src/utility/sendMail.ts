@@ -27,7 +27,7 @@ export const sendMail = async function (
 
   const mailOptions = {
     from: user,
-    to: "theaamnansari@gmail.com",
+    to: user,
     subject: "Portfolio: [" + subject + " ]",
     text: `${name}: <${email}>\n${message}`,
   };

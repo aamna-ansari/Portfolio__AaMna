@@ -12,6 +12,8 @@ export const sendMail = async function (
   
   const user = process.env.NODEMAILER_USER;
   const pass = process.env.NODEMAILER_PASS;
+  console.log("Sending mail to:", user);
+  console.log("Email from:", email);
   if (!user || !pass) {
     return new Promise((resolve) =>
       resolve({ status: 500, message: "Internal server error" }),

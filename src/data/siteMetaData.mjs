@@ -16,7 +16,7 @@ export const siteMetadata = {
   github: "https://github.com/theamnabb",
   twitter: "https://x.com/theamnabb",
   Leetcode: "https://leetcode.com/u/aamnansari/",
-  linkedin: "https://www.linkedin.com/in/aamnansari/",
+  linkedin: "https://www.linkedin.com/in/theamnabb",
   locale: "en-US",
   googleSiteVerification: "_YJlO90eSoye2AQOhbkRAzNbejzCGiTgAD4RNR3NtHc",
 };

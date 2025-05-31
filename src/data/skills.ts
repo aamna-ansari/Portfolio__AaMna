@@ -122,10 +122,10 @@ export const SKILLS_DATA: SkillsShowcaseProps["skills"] = [
         name: "VsCode",
         icon: vSCodeSvg,
       },
-      {
-        name: "Cursor Ai",
-        icon: CursorAiSvg,
-      }
+      // {
+      //   name: "Cursor Ai",
+      //   icon: CursorAiSvg,
+      // }
       
     ],
   },

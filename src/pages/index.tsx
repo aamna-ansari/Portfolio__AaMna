@@ -15,18 +15,18 @@ export default function Home() {
     <>
       <CursorTrailCanvas className="pointer-events-none fixed inset-0 -z-10 h-full w-full" />
       <NextSeo
-        title="AaMna AnSari | Frontend Developer"
-        description="Explore the professional portfolio of AaMna AnSari, a skilled Frontend Developer with 2 years of hands-on experience. Discover innovative projects, expertise in modern web technologies, and a passion for creating seamless user experiences."
+        title="Amna BB | Frontend Developer"
+        description="Explore the professional portfolio of Amna BB, a skilled Frontend Developer with 2 years of hands-on experience. Discover innovative projects, expertise in modern web technologies, and a passion for creating seamless user experiences."
         canonical={siteMetadata.siteUrl}
         openGraph={{
           url: siteMetadata.siteUrl,
-          title: "AaMna AnSari - Frontend Developer Portfolio",
+          title: "Amna BB - Frontend Developer Portfolio",
           description:
-            "Dive into the world of web development with AaMna AnSari. Discover a Frontend Developer with 2 years of expertise, showcasing cutting-edge projects and a commitment to crafting exceptional user interfaces.",
+            "Dive into the world of web development with Amna BB. Discover a Frontend Developer with 2 years of expertise, showcasing cutting-edge projects and a commitment to crafting exceptional user interfaces.",
           images: [
             {
               url: `${siteMetadata.siteUrl}${siteMetadata.twitterImage}`,
-              alt: "AaMna AnSari - Portfolio Image",
+              alt: "Amna BB - Portfolio Image",
             },
           ],
           siteName: siteMetadata.siteName,

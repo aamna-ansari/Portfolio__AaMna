@@ -52,7 +52,7 @@ export const PROJECTS_CARD: ProjectCardProps[] = [
     ],
     description:
       "My personal portfolio website made using Nextjs, tailwindcss and framer motion.",
-    sourceCodeHref: "https://github.com/aamna-ansari/Portfolio_aaMna",
+    sourceCodeHref: "https://github.com/theamnabb/Portfolio_AmnaBB",
     liveWebsiteHref: "https://aamnansari.vercel.app/",
   },
   {
@@ -61,7 +61,7 @@ export const PROJECTS_CARD: ProjectCardProps[] = [
     imageUrl: ["/images/projects/CalculatorLight.webp"],
     description:
       "Create a JavaScript calculator using the JavaScript, HTML, and CSS programming languages. It should perform addition, subtraction, division, and modulus operations.",
-    sourceCodeHref: "https://github.com/aamna-ansari/Project-03",
+    sourceCodeHref: "https://github.com/theamnabb/Project-03",
     liveWebsiteHref: "https://project-03-jet.vercel.app/",
   },
   {
@@ -70,7 +70,7 @@ export const PROJECTS_CARD: ProjectCardProps[] = [
     imageUrl: ["/images/projects/AM.webp", "/images/projects/PM.webp"],
     description:
       "Discover a sleek toggle button interface for seamless 'on' and 'off' state transitions. Perfect for intuitive web interactions, integrating HTML, CSS, and JavaScript effortlessly enhances user control.",
-    sourceCodeHref: "https://github.com/aamna-ansari/ProjectNo03",
+    sourceCodeHref: "https://github.com/theamnabb/ProjectNo03",
     liveWebsiteHref: "https://project-no03.vercel.app/",
   },
   {
@@ -85,7 +85,7 @@ export const PROJECTS_CARD: ProjectCardProps[] = [
     ],
     description:
       "Many short and fun games/ Challanges using HTML, CSS, Reactjs, Typescript and Tailwindcss with collaboration with other developers",
-    sourceCodeHref: "https://github.com/aamna-ansari/ChallengeYourCode",
+    sourceCodeHref: "https://github.com/theamnabb/ChallengeYourCode",
     liveWebsiteHref: "https://03-periodictable.netlify.app/",
   },
 ];

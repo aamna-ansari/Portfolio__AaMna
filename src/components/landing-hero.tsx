@@ -25,8 +25,8 @@ export default function LandingHero() {
 
   const handleDownload = () => {
     const link = document.createElement("a");
-    link.href = "/AaMna_CV.pdf"; 
-    link.download = "AaMna_CV.pdf";
+    link.href = "/amnabb.pdf"; 
+    link.download = "amnabb.pdf";
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);

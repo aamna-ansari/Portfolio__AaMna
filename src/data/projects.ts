@@ -53,7 +53,7 @@ export const PROJECTS_CARD: ProjectCardProps[] = [
     description:
       "My personal portfolio website made using Nextjs, tailwindcss and framer motion.",
     sourceCodeHref: "https://github.com/theamnabb/Portfolio_AmnaBB",
-    liveWebsiteHref: "https://aamnansari.vercel.app/",
+    liveWebsiteHref: "https://theamnabb.vercel.app/",
   },
   {
     name: "Calculator",
